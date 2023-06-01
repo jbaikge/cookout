@@ -1,0 +1,154 @@
+[
+  {
+    "title": "Hi, Old Friend",
+    "body": "Meet an old friend at the cookout!",
+    "conditions": [
+      {
+        "values": [1, 2, 3],
+        "label": "1-3",
+        "outcome": "Small talk",
+        "charges": [3, -3]
+      },
+      {
+        "values": [4, 5, 6],
+        "label": "4-6",
+        "outcome": "Deep conversation",
+        "charges": [1, -1]
+      }
+    ]
+  },
+  {
+    "title": "Rambling Retiree",
+    "body": "Back in my day...",
+    "conditions": [
+      {
+        "values": [1, 2, 3, 4, 5],
+        "label": "1-5",
+        "outcome": "... we walked to school uphill both ways in the snow!",
+        "charges": [-3, -3]
+      },
+      {
+        "values": [6],
+        "label": "6",
+        "outcome": "... we would go skydiving naked!",
+        "charges": [2, 2]
+      }
+    ]
+  },
+  {
+    "title": "Mosh Pit!",
+    "body": "Move all extroverts forward",
+    "function": "moveExtroverts",
+    "conditions": [
+      {
+        "values": [1, 2, 3, 4, 5, 6],
+        "label": "Any",
+        "outcome": "Move this many spaces",
+        "charges": [0, 0]
+      }
+    ]
+  },
+  {
+    "title": "Come on, guys!",
+    "body": "Move all introverts forward",
+    "function": "moveIntroverts",
+    "conditions": [
+      {
+        "values": [1, 2, 3, 4, 5, 6],
+        "label": "Any",
+        "outcome": "Move this many spaces",
+        "charges": [0, 0]
+      }
+    ]
+  },
+  {
+    "title": "Bathroom Break",
+    "body": "Sweet relief!",
+    "conditions": [
+      {
+        "values": [1, 2, 3],
+        "label": "1-3",
+        "outcome": "Get a break in the loo",
+        "charges": [3, 3]
+      },
+      {
+        "values": [4, 5, 6],
+        "label": "4-6",
+        "outcome": "Knock! Knock!",
+        "charges": [0, 0]
+      }
+    ]
+  },
+  {
+    "title": "You Shop at Dads R Us?",
+    "body": "You're wearing the same shirt as two other dads. Clearly you have a lot in common",
+    "conditions": [
+      {
+        "values": [1, 3, 5],
+        "label": "Odd",
+        "outcome": "We love our craft beer!",
+        "charges": [3, -2]
+      },
+      {
+        "values": [2, 4, 6],
+        "label": "Even",
+        "outcome": "Grill catches fire",
+        "charges": [-2, 3]
+      }
+    ]
+  },
+  {
+    "title": "Mob!",
+    "body": "So many people!",
+    "conditions": [
+      {
+        "values": [1, 3, 5],
+        "label": "Odd",
+        "outcome": "They swarm you!",
+        "charges": [3, -2]
+      },
+      {
+        "values": [2, 4, 6],
+        "label": "Even",
+        "outcome": "They pass you to pet the dog!",
+        "charges": [-2, 3]
+      }
+    ]
+  },
+  {
+    "title": "Flatus Maximus",
+    "body": "You have to fart!",
+    "conditions": [
+      {
+        "values": [1, 2, 3],
+        "label": "1-3",
+        "outcome": "The CD just skipped...",
+        "charges": [-1, -1]
+      },
+      {
+        "values": [4, 5, 6],
+        "label": "4-6",
+        "outcome": "The feeling passes",
+        "charges": [1, 1]
+      }
+    ]
+  },
+  {
+    "title": "Puppy!",
+    "body": "The host's Golden Retriever comes by",
+    "conditions": [
+      {
+        "values": [1, 2, 3, 4, 5],
+        "label": "1-5",
+        "outcome": "Who's a good boy?",
+        "charges": [2, 2]
+      },
+      {
+        "values": [6],
+        "label": "6",
+        "outcome": "Hey, you stoke my burger!",
+        "charges": [-1, -1]
+      }
+    ]
+  }
+]
