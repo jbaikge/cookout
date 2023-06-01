@@ -1,4 +1,4 @@
-module github.com/jbaikge/mngn-game
+module github.com/jbaikge/cookout/cookout
 
 go 1.20
 
